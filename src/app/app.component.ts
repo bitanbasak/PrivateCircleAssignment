@@ -7,7 +7,7 @@ const data: Array<TableData> = [
     date: "July 23",
     listName: "Test List",
     entities: ['Infosys Limited', 'Wow Momo Foods Private Limited', 'Lendingkart Technologies Private Limited'],
-    actions: ['faShareAlt', 'faPen', 'faTrashAlt'],
+    actions: ['Share', 'Edit', 'Delete'],
     description: ''
   },
   {
@@ -15,7 +15,7 @@ const data: Array<TableData> = [
     date: "September 1",
     listName: "Two Companies",
     entities: ['Delhivery Private Limited', 'Lendingkart Technologies Private Limited'],
-    actions: ['faPen', 'faTrashAlt'],
+    actions: ['Edit', 'Delete'],
     description: ''
   },
   {
@@ -23,7 +23,7 @@ const data: Array<TableData> = [
     date: "November 11",
     listName: "To_Index",
     entities: ['Balaji Wafers Private Limited', 'Wow Momo Foods Private Limited', 'Lendingkart Technologies Private Limited'],
-    actions: ['faShareAlt', 'faPen', 'faTrashAlt'],
+    actions: ['Share', 'Edit', 'Delete'],
     description: ''
   },
   {
@@ -31,7 +31,7 @@ const data: Array<TableData> = [
     date: "January 19",
     listName: "Custom",
     entities: ['Infosys Limited', 'Vodafone Idea Limited', 'Lendingkart Technologies Private Limited', 'Puma Sports India Private Limited'],
-    actions: ['faPen', 'faTrashAlt'],
+    actions: ['Edit', 'Delete'],
     description: ''
   },
   {
@@ -39,7 +39,7 @@ const data: Array<TableData> = [
     date: "September 30",
     listName: "Companies",
     entities: ['Lendingkart Technologies Private Limited'],
-    actions: ['faPen', 'faTrashAlt'],
+    actions: ['Edit', 'Delete'],
     description: ''
   }
 ];

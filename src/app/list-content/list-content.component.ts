@@ -26,9 +26,9 @@ export class ListContentComponent implements OnInit {
   }
 
   getActionIcon(action: string) {
-    if(action === 'faPen') {
+    if(action === 'Edit') {
       return faPen;
-    } else if(action === 'faTrashAlt') {
+    } else if(action === 'Delete') {
       return faTrashAlt;
     } else {
       return faShareAlt;
