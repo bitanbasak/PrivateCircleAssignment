@@ -1,0 +1,32 @@
+<table class="table">
+  <thead class="table-header">
+    <tr>
+      <th *ngFor="let header of tableHeaders" scope="col">{{ header }}</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let data of tableData" class="table-row">
+      <td>{{ data.date }}</td>
+      <td>{{ data.listName }}</td>
+      <td>{{ data.entities.length }}</td>
+      <td>
+        <ul class="action-list">
+          <li *ngFor="let action of data.actions">
+            <fa-icon [icon]="getActionIcon(action)"></fa-icon>
+          </li>
+        </ul>
+      </td>
+      <td>
+        <div class="d-flex justify-content-center">
+          <button
+            (click)="onDetailsClick(data)"
+            type="button"
+            class="btn btn-outline-secondary details-button"
+          >
+            Details
+          </button>
+        </div>
+      </td>
+    </tr>
+  </tbody>
+</table>

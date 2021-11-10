@@ -1,0 +1,24 @@
+.addDescriptionDiv {
+  background-color: rgb(238, 238, 238);
+  padding: 10px;
+  margin: 20px;
+}
+
+.addDescriptionDiv > a {
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+.entity-list {
+  list-style-type: none;
+  padding: 0px;
+  margin-left: 20px;
+}
+
+.links {
+  text-decoration: none;
+}
+
+.entity-list > li {
+  margin-top: 10px;
+}

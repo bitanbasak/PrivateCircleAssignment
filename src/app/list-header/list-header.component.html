@@ -1,0 +1,35 @@
+<nav class="navbar navbar-light bg-light">
+  <div class="container-fluid">
+    <ul class="nav nav-pills">
+      <li class="nav-item">
+        <a class="nav-link active" href="#"
+          ><fa-icon [icon]="faListUl" class="pe-2"></fa-icon>SAVED LISTS</a
+        >
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#"
+          ><fa-icon [icon]="faFilter" class="pe-2"></fa-icon>SAVED FILTERS</a
+        >
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#"
+          ><fa-icon [icon]="faHistory" class="pe-2"></fa-icon> SEARCH HISTORY</a
+        >
+      </li>
+    </ul>
+    <form
+      class="d-flex"
+      (ngSubmit)="onSearchSubmit(searchForm)"
+      #searchForm="ngForm"
+    >
+      <input
+        class="form-control me-2"
+        type="search"
+        placeholder="Enter search term and hit Enter"
+        aria-label="Search"
+        ngModel
+        name="searchTerm"
+      />
+    </form>
+  </div>
+</nav>

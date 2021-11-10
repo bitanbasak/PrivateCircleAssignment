@@ -1,0 +1,15 @@
+<div *ngIf="detailedData; else noDataTemplate">
+  <div class="addDescriptionDiv">
+    No Description Yet <a href="#">+Add Description</a>
+  </div>
+  <ul class="entity-list">
+    <li *ngFor="let entity of detailedData.entities">
+      <a href="#" class="links">{{ entity }}</a>
+    </li>
+  </ul>
+</div>
+<ng-template #noDataTemplate>
+  <div class="addDescriptionDiv">
+    No Description Yet <a href="#">+Add Description</a>
+  </div>
+</ng-template>

@@ -1,0 +1,16 @@
+.navbar {
+  padding: 20px 0px 20px 0px !important;
+}
+
+.active {
+  background-color: black !important;
+  color: white;
+}
+
+.form-control {
+  width: 500px !important;
+}
+
+ul > li:nth-child(n + 2) > a {
+  color: black;
+}
